@@ -39,4 +39,4 @@ Ans. a) I will try to explore few different types of framework.
 
 b) Will not use DateUtil class to get dates using different functions and will try to parameterize the date using Scenario Outlook.
 
-c) Will validate static data in body and the most impostant parameters that are present in nodes to be tested.
+c) Will validate static data in body and the most important parameters that are present in nodes to be tested.
