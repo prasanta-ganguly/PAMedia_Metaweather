@@ -12,7 +12,7 @@ One utility file for different date functions is inside main folder and there is
 1.	Clone this project to the desired location of your machine
 2.	Open your CLI and go to the folder of the project
 3.	And use command “mvn clean install” to run the project
-# 4 Check index.html under target -> HTMLReports to see the test result
+4 Check index.html under target -> HTMLReports to see the test result
 
 # Execute in Jenkins:
 1.	Create a new item and select Maven project
