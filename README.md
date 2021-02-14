@@ -26,7 +26,6 @@ c) Max and min value of each numeric data and their type
 d) What are the validations that are expeted to be looked at from client perspective
 
 e) Can we get an endpoint to get tomorrow's weather by location also.
-
 For example https://www.metaweather.com/api/location/Nottingham/2021/02/14/ and not only https://www.metaweather.com/api/location/30720/2021/02/14/
 where Nottingham = 30720
 
