@@ -1,12 +1,35 @@
 # PAMedia_Metaweather
 This is a very basic test approach to Metaweather API automation scenario given by PAMedia
 
-Q1. Explain why you chose to use those particular tools/frameworks in the technical challenge?
+# Test Overview:
+This is a Maven project.
+This test framework is a very simple and quick approach to fetch the tomorrow’s weather of a particular city in meataweather.
+**Please see the image “RestAssured_framework.png” to understand the framework structure mentioned below.**
+There is a parameterized feature file with Scenario Outline in resource folder and a corresponding step definition file in test folder.
+One utility file for different date functions is inside main folder and there is one baseUrl file under test folder.
+
+# Execute in your local:
+1.	Clone this project to the desired location of your machine
+2.	Open your CLI and go to the folder of the project
+3.	And use command “mvn clean install” to run the project
+# 4 Check index.html under target -> HTMLReports to see the test result
+
+# Execute in Jenkins:
+1.	Create a new item and select Maven project
+2.	Go to configure and select Source Code Management = GIT
+3.	Enter Repository URL = https://github.com/prasanta-ganguly/PAMedia_Metaweather 
+4.	Branch Specifier = */master
+5.	Under the build, Root POM = pom.xml
+6.	Goals and options = clean install and save & apply
+7.	Open the project from dashboard and click on Build Now
+
+
+**Q1. Explain why you chose to use those particular tools/frameworks in the technical challenge?
 
 Ans. Considering the time available to me I find this framework very simple to quickly test the weather of a city for the given endpoint.
 And since currently I am working in a Selenium BDD project hence find it i easy to implement the scenario in BDD format than TestNG way of implementation.
 
-Q2. Describe the reason for the scope of your solution. Why did you test what you did, and why didn’t you test other things?
+# Q2. Describe the reason for the scope of your solution. Why did you test what you did, and why didn’t you test other things?
 
 Ans. The scope of the solution is focused on location and date so that the same script can be used for multiple locations and dates. Location is handled by
 parameterized the tests and a date util class is created to handle different dates.
@@ -15,7 +38,7 @@ I only tried to test tomorrow's weather of the city and to achieve that I first 
 I did not validate many things since I am not clear with the functionality and do not know what exactly I am expeted to  validate when getting so much of data
 for tomorrow's weather of a city.
 
-Q3. What questions would you ask your Product Owner / what information would you need to know, to be able to test the whole MetaWeather API service comprehensively?
+# Q3. What questions would you ask your Product Owner / what information would you need to know, to be able to test the whole MetaWeather API service comprehensively?
 
 a) What is the dynamic nature of the data?
 
@@ -33,7 +56,7 @@ f) Purpose of these data and where these will be stored and how these data will 
 
 g) How any data dependency will be achieved in GUI?
 
-Q4. After completing the technical challenge, what would you do differently if you were asked to do the same challenge again?
+# Q4. After completing the technical challenge, what would you do differently if you were asked to do the same challenge again?
 
 Ans. a) I will try to explore few different types of framework.
 
