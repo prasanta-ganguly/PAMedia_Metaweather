@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="12.668">
+<testcase classname="Verify Nottingham weather" name="Verifying tomorrow's weather of Nottingham city" time="7.103">
+<system-out><![CDATA[Given client performs GET operations to search the Nottingham to get 30720 number.passed
+When client performs GET operation with 30720 to get next five days weather.passed
+Then get tomorrow city weather of 30720.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Nottingham weather" name="Verifying tomorrow's weather of Nottingham city 2" time="2.618">
+<system-out><![CDATA[Given client performs GET operations to search the London to get 44418 number.passed
+When client performs GET operation with 44418 to get next five days weather.passed
+Then get tomorrow city weather of 44418.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Nottingham weather" name="Verifying tomorrow's weather of Nottingham city 3" time="2.469">
+<system-out><![CDATA[Given client performs GET operations to search the Glasgow to get 21125 number.passed
+When client performs GET operation with 21125 to get next five days weather.passed
+Then get tomorrow city weather of 21125.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

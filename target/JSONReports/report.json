@@ -1,0 +1,220 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-14T01:33:22.972Z",
+        "line": 11,
+        "name": "Verifying tomorrow\u0027s weather of Nottingham city",
+        "description": "",
+        "id": "verify-nottingham-weather;verifying-tomorrow-s-weather-of-nottingham-city;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4172000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "client performs GET operations to search the Nottingham to get 30720 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nottingham",
+                  "offset": 45
+                },
+                {
+                  "val": "30720",
+                  "offset": 63
+                }
+              ],
+              "location": "Steps.nottingham_weather_test.client_performs_GET_operations_to_search_the_Nottingham_to_get_woeid_number(java.lang.String,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1612000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "client performs GET operation with 30720 to get next five days weather",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30720",
+                  "offset": 35
+                }
+              ],
+              "location": "Steps.nottingham_weather_test.client_performs_GET_operation_with_to_get_next_five_days_weather(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1191000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get tomorrow city weather of 30720",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30720",
+                  "offset": 29
+                }
+              ],
+              "location": "Steps.nottingham_weather_test.get_tomorrow_city_weather(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-14T01:33:30.098Z",
+        "line": 12,
+        "name": "Verifying tomorrow\u0027s weather of Nottingham city",
+        "description": "",
+        "id": "verify-nottingham-weather;verifying-tomorrow-s-weather-of-nottingham-city;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 316000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "client performs GET operations to search the London to get 44418 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 45
+                },
+                {
+                  "val": "44418",
+                  "offset": 59
+                }
+              ],
+              "location": "Steps.nottingham_weather_test.client_performs_GET_operations_to_search_the_Nottingham_to_get_woeid_number(java.lang.String,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 964000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "client performs GET operation with 44418 to get next five days weather",
+            "match": {
+              "arguments": [
+                {
+                  "val": "44418",
+                  "offset": 35
+                }
+              ],
+              "location": "Steps.nottingham_weather_test.client_performs_GET_operation_with_to_get_next_five_days_weather(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1326000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get tomorrow city weather of 44418",
+            "match": {
+              "arguments": [
+                {
+                  "val": "44418",
+                  "offset": 29
+                }
+              ],
+              "location": "Steps.nottingham_weather_test.get_tomorrow_city_weather(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-14T01:33:32.718Z",
+        "line": 13,
+        "name": "Verifying tomorrow\u0027s weather of Nottingham city",
+        "description": "",
+        "id": "verify-nottingham-weather;verifying-tomorrow-s-weather-of-nottingham-city;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 426000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "client performs GET operations to search the Glasgow to get 21125 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Glasgow",
+                  "offset": 45
+                },
+                {
+                  "val": "21125",
+                  "offset": 60
+                }
+              ],
+              "location": "Steps.nottingham_weather_test.client_performs_GET_operations_to_search_the_Nottingham_to_get_woeid_number(java.lang.String,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1225000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "client performs GET operation with 21125 to get next five days weather",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21125",
+                  "offset": 35
+                }
+              ],
+              "location": "Steps.nottingham_weather_test.client_performs_GET_operation_with_to_get_next_five_days_weather(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 812000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get tomorrow city weather of 21125",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21125",
+                  "offset": 29
+                }
+              ],
+              "location": "Steps.nottingham_weather_test.get_tomorrow_city_weather(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Nottingham weather",
+    "description": "",
+    "id": "verify-nottingham-weather",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/nottingham_weather.feature",
+    "tags": []
+  }
+]
