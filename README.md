@@ -18,17 +18,26 @@ for tomorrow's weather of a city.
 Q3. What questions would you ask your Product Owner / what information would you need to know, to be able to test the whole MetaWeather API service comprehensively?
 
 a) What is the dynamic nature of the data?
+
 b) What are the data that are dynamic in each node?
+
 c) Max and min value of each numeric data and their type
+
 d) What are the validations that are expeted to be looked at from client perspective
+
 e) Can we get an endpoint to get tomorrow's weather by location also.
+
 For example https://www.metaweather.com/api/location/Nottingham/2021/02/14/ and not only https://www.metaweather.com/api/location/30720/2021/02/14/
 where Nottingham = 30720
+
 f) Purpose of these data and where these will be stored and how these data will be shown to users i.e. is there any cascaded nature in the data relationship.
+
 g) How any data dependency will be achieved in GUI?
 
 Q4. After completing the technical challenge, what would you do differently if you were asked to do the same challenge again?
 
 Ans. a) I will try to explore few different types of framework.
+
 b) Will not use DateUtil class to get dates using different functions and will try to parameterize the date using Scenario Outlook.
+
 c) Will validate static data in body and the most impostant parameters that are present in nodes to be tested.
