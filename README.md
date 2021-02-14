@@ -1,5 +1,6 @@
 # PAMedia_Metaweather
 This is a very basic test approach to Metaweather API automation scenario given by PAMedia
+
 Q1. Explain why you chose to use those particular tools/frameworks in the technical challenge?
 
 Ans. Considering the time available to me I find this framework very simple to quickly test the weather of a city for the given endpoint.
