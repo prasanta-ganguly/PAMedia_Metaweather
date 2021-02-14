@@ -24,7 +24,7 @@ One utility file for different date functions is inside main folder and there is
 7.	Open the project from dashboard and click on Build Now
 
 
-**Q1. Explain why you chose to use those particular tools/frameworks in the technical challenge?
+# Q1. Explain why you chose to use those particular tools/frameworks in the technical challenge?
 
 Ans. Considering the time available to me I find this framework very simple to quickly test the weather of a city for the given endpoint.
 And since currently I am working in a Selenium BDD project hence find it i easy to implement the scenario in BDD format than TestNG way of implementation.
